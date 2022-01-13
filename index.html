@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
     <section>
         <div class="order-summary">
             <section class="order-header">
-
             </section>
             <section class="order-body">
                 <div class="order-title">
@@ -31,22 +31,25 @@
                     
                     <div class="plan">
                         <span class="icon icon-music"></span>
-                        <p class="plan-title">
-                            Annual Plan
-                        </p>
-                        <p class="plan-price">
-                            $59.99/year
-                        </p>
+                        <div class="plan-info">
+                            <p class="plan-title">
+                                Annual Plan
+                            </p>
+                            <p class="plan-price">
+                                $59.99/year
+                            </p>
+                        </div>
                     </div>
                     <div class="plan-option">
                         <a href="#" class="plan-option-change">Change</a>
                     </div>
                 </div>
+                <section class="order-actions">
+                    <button class="actions-payment">Proceed to Payment</button>
+                    <a href="#" class="actions-cancel-order">Cancel Order</a>
+                </section>
             </section>
-            <section class="order-actions">
-                <button class="actions-payment">Proceed to Payment</button>
-                <a href="#" class="action-cancel-order">Cancel Order</a>
-            </section>
+            
         </div>
     </section>
 </body>
